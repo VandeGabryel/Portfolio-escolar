@@ -1,0 +1,45 @@
+
+body{
+    background: #87CEFA;
+
+    font-family: 'Playfair Display', serif;
+    border-top: #009;
+    border-left: #009;
+    border-right: #900;
+    border-bottom: #900;
+    border-width: 5px;
+    border-style: dotted;
+}
+
+.titulo{
+    font-family: 'Tektur', cursive;
+    font-size: 24px; ;
+}
+
+li{
+    list-style: none;
+}
+
+.eu{
+    margin-left: 100px;
+    margin-bottom: 15px;
+    margin-right: 100px;
+    padding: 25px;
+    /* display: flex; */
+    align-items: center;
+    justify-content: center;
+    background: border-box;
+    border-style: double;
+    max-height: max-content;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    /* margin-top: 5px; */
+    width: 1050px;
+}
+
+.destaque{
+    color: darkblue;
+    font-weight: bolder;
+
+}
