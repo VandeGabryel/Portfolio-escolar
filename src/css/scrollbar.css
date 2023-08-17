@@ -1,0 +1,85 @@
+.corpo{
+    background: border-box;
+    border-style: double;
+    max-height: 500px;
+    overflow-y: scroll;
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 15px;
+    width: 580px;
+}
+
+  *::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #464646;
+    border-radius: 5px;
+    border: 2px solid #202020;
+}
+
+/* main */
+.lista-de-periodos{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+/* section */
+.lista-de-periodos .periodos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 25px;
+}
+
+/* ul */
+.lista-de-periodos .lista{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+
+.corpoP{
+    background: border-box;
+    border-style: double;
+    border-color: maroon;
+    max-height: 300px;
+    overflow-y: scroll;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    margin-top: 15px;
+    width: 360px;
+}
+
+.corpoM{
+    background: border-box;
+    border-style: double;
+    border-color: maroon;
+    max-height: 410px;
+    overflow-y: scroll;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: left;
+    margin-top: 10px;
+    width: 550px;
+    padding: 25px;
+}
+
+.musica {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
